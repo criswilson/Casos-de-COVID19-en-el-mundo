@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="general">
+      <section class="content">
+        <h1 class="title">Casos de COVID-19 en el mundo</h1>
+        <div class="search">
+          <input
+            class="input js-input"
+            type="text"
+            placeholder="Ingresa un país"
+          />
+          <button class="button js-button">Buscar</button>
+        </div>
+
+        <p class="horror js-horror">Ingrese un país existente</p>
+
+        <div class="data js-data">
+          <span class="info country">País</span>
+          <p class="info-content js-country"></p>
+          <span class="info confirmed">Casos confirmados</span>
+          <p class="info-content js-confirmed"></p>
+          <span class="info deaths">Casos muertos</span>
+          <p class="info-content js-deaths"></p>
+          <span class="info recovered">Casos recuperados</span>
+          <p class="info-content js-recovered"></p>
+          <span class="info active">Casos activos</span>
+          <p class="info-content js-active"></p>
+        </div>
+      </section>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
